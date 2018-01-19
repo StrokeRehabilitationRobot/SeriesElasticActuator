@@ -297,8 +297,8 @@
 	<type>servo-rotory</type>
 	<index>2</index>
 	<scale>1.0</scale>
-	<upperLimit>100000.0</upperLimit>
-	<lowerLimit>-100000.0</lowerLimit>
+	<upperLimit>100.0</upperLimit>
+	<lowerLimit>-100.0</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>0.0</staticOffset>
@@ -308,6 +308,16 @@
 	<homingTPS>10000000</homingTPS>
 
 	<vitamins>
+		<vitamin>
+			<name>electroMechanical</name>
+			<type>hobbyServo</type>
+			<id>standardMicro</id>
+		</vitamin>
+		<vitamin>
+			<name>shaft</name>
+			<type>hobbyServoHorn</type>
+			<id>standardMicro1</id>
+		</vitamin>
 
 	</vitamins>
 	<passive>false</passive>
